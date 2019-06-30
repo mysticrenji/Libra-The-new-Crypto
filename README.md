@@ -22,13 +22,12 @@ After building , it will go into "libra%" CLI connecting to Libra Testnet (Dev e
 ## Quick Commands
 ### Account Creation
 
-libra% account create
->> Creating/retrieving next account from wallet
+libra% account create<br>
+Creating/retrieving next account from wallet <br>
 Created/retrieved account #0 address 19bae6df765efbd53296bc44292bfee1f50d451db551d640c6c5d398fa9e3fde
 
-
 ### Check the balance
-libra% query the balance <index number or hash address>
+libra% query the balance <index number or hash address> <br>
 libra% query balance 513f254b70324b754f257f40357fd71897adebe45510199486ab226efbd4011e
   
 ### Transfer Coins
