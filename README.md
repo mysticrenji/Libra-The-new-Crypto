@@ -27,16 +27,16 @@ Creating/retrieving next account from wallet <br>
 Created/retrieved account #0 address 19bae6df765efbd53296bc44292bfee1f50d451db551d640c6c5d398fa9e3fde
 
 ### Check the balance
-libra% query the balance <index number or hash address> <br>
+libra% query the balance index number or hash address <br>
 libra% query balance 513f254b70324b754f257f40357fd71897adebe45510199486ab226efbd4011e
   
 ### Transfer Coins
-libra% <account1> <account2> <coin number> <br>
+libra% account1 account2 coinvalue <br>
 libra% 19bae6df765efbd53296bc44292bfee1f50d451db551d640c6c5d398fa9e3fde 513f254b70324b754f257f40357fd71897adebe45510199486ab226efbd4011e 500
 
 ### Quey transactions just submittted
-libra% query txn_acc_seq <account1> <account1> true
+libra% query txn_acc_seq account1 account1 true
 
 ### The Blocking Transfer Command
-libra% transferb <account1> <account2> 500
+libra% transferb account1 account2 500
   
