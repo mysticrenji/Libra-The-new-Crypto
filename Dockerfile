@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:26.04
 
 LABEL version="1.0"
 LABEL maintainer="Renji <renjithvr11@gmail.com>"
